@@ -11,6 +11,7 @@ python = "^3.9"
 networkx = "^3.2.1"
 tqdm = "^4.66.1"
 requests = "^2.31.0"
+numpy = "^1.26.2"
 
 
 [build-system]
