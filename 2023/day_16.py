@@ -94,13 +94,6 @@ def print_frame(grid: list[str], path: dict) -> None:
     print()
 
 
-def isin(i, blist):
-    for b in blist:
-        if b.x == i.x and b.y == i.y and b.direction == i.direction:
-            return True
-    return False
-
-
 def cnt_dist_beams(blist):
     d = {}
     for b in blist.values():
